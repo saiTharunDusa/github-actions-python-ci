@@ -9,5 +9,5 @@ def subtract(a, b):
 # Divison function
 def divide(a, b):
     if b == 0:
-        raise ZeroDivisionError
+        raise ZeroDivisionError("Cannot divide by zero")
     return a / b
